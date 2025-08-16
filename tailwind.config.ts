@@ -5,6 +5,8 @@ export default {
   content: [
     "./index.html",
     "./app/**/*.{js,ts,jsx,tsx}", // react-router framework mode
+    "./components/**/*.{js,ts,jsx,tsx}", // react-router framework mode
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {

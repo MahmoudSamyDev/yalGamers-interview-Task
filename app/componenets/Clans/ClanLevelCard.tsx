@@ -3,7 +3,8 @@ import ProgressBar from "../UI/ProgressBar";
 function ClanLevelCard({ level, points }: { level: number; points?: number }) {
   return (
     <div
-      className={`${points ? "p-[12px]" : "p-[6px]"} flex flex-col gap-[4px] bg-[#FFFFFF0D] rounded-[8px] w-full`}
+      className="flex flex-col gap-[4px] bg-[#FFFFFF0D] rounded-[8px] w-full"
+      style={points ? { padding: "12px" } : { padding: "6px" }}
     >
       <span className="block text-[12px] text-[#FFFFFF99]">Clan Level</span>
       <div className="flex items-center justify-between">

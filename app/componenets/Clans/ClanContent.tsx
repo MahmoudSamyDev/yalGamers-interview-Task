@@ -1,5 +1,5 @@
 import ClanLevelCard from "./ClanLevelCard";
-import ClanMemeberCard from "./ClanMemeberCard";
+import ClanMemeberCard from "./ClanMemberCard";
 import JoinClanButton from "../UI/JoinClanButton";
 function ClanContent({
   name,
