@@ -9,9 +9,7 @@ function SingleClanCard({ clanData }: { clanData: Clan_TP }) {
     clanData;
   return (
     <div className="relative flex-1 h-[314px] rounded-[12px] overflow-hidden flex justify-end items-center">
-      {/* Base fill with opacity */}
       <div className="absolute inset-0 bg-[#271D27]/40 backdrop-blur-[20px]" />
-      {/* Gradient border layer */}
       <div
         className="pointer-events-none absolute inset-0 rounded-[12px] p-px
               [background:linear-gradient(90deg,rgba(238,176,254,0.4),rgba(142,105,152,0))]
